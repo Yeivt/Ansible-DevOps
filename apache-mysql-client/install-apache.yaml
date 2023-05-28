@@ -23,7 +23,7 @@
       
     - name: Create document root for domain configured in host variable
       copy:
-          content: "Hola esta es la {{ ansible_facts['hostname'] }} del desafio de Gabriel Mones Ruiz"
+          content: "Hola esta es la {{ ansible_facts['hostname'] }} del desafio de Yeison Torrealba"
           dest: "/var/www/html/index.html"
           owner: www-data
           group: www-data
